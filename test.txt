@@ -1,0 +1,17 @@
+# 1. Khởi tạo git trong thư mục
+git init
+
+# 2. Thêm tất cả file vào staging
+git add .
+
+# 3. Commit lần đầu
+git commit -m "first commit"
+
+# 4. Liên kết với repository trên GitHub (thay username và repo của bạn)
+git remote add origin https://github.com/username/my-project.git
+# hoặc dùng SSH (khuyên dùng sau khi đã set SSH key):
+# git remote add origin git@github.com:username/my-project.git
+
+# 5. Đẩy code lên nhánh main (hoặc master)
+git branch -M main
+git push -u origin main
