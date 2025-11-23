@@ -1,7 +1,7 @@
 # 1. Khởi tạo git trong thư mục
 git init
 
-# 2. Thêm tất cả file vào staging
+# 2. Thêm tất cả file 
 git add .
 
 # 3. Commit lần đầu
